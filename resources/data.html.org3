@@ -1,0 +1,399 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="imagetoolbar" content="no">
+<meta name="DC.title" content="SPARC Reanalysis Intercomparison Project">
+<meta name="DC.date.created" scheme="ISO8601" content="2013-09-12">
+<meta name="DC.date.reviewed" scheme="ISO8601" content="2013-09-12">
+<meta name="DC.language" scheme="DCTERMS.RFC1766" content="EN-US">
+
+
+<link rel="stylesheet" type="text/css" media="screen" href="/css/home.css">
+<link rel="stylesheet" type="text/css" media="print" href="/css/print.css">
+<title>SPARC Reanalysis Intercomparison Project</title>
+
+<script type="text/javascript" src="/jav/menu.js"></script>
+<script type="text/javascript" src="/jav/fader.js"></script>
+
+</head>
+
+<body>
+
+
+<h1 id="sitetitle">SPARC Reanalysis Intercomparison Project</h1>
+<div id="header_container">
+  <div id="header">
+    <a href="/index.html" class="noborder">
+    <img src="/img/sripheader.png" alt="S-RIP" height="120"></a>
+    <div id="sparc_logo">
+      <a href="http://www.sparc-climate.org/" class="noborder">
+      <img src="/img/sparclogo.png" title="Click to visit SPARC website" alt="SPARC logo" height="100"></a>
+    </div>
+  </div>
+</div>
+
+
+<div id="nav_container">
+	<ul id="nav">
+		<li><a href="/index.html">About S-RIP</a><ul style="width:180px">
+			<li><a href="/index.html">Introduction</a></li>
+			<li><a href="/wg.html">Working Group</a></li>
+		</ul>
+		</li>
+		<li><a href="/report/index.html">Report</a><ul style="width:180px">
+			<li><a href="/report/index.html">Overview</a></li>
+			<li><a href="/report/structure.html">Structure</a></li>
+			<li><a href="/report/schedule.html">Implementation Plan</a></li>
+		</ul>
+		</li>
+		<li><a href="/pubs/index.html">Publications</a><ul style="width:180px">
+			<li><a href="/pubs/index.html">S-RIP Publications</a></li>
+			<li><a href="/pubs/reanalysis.html">Reanalysis Descriptions</a></li>
+			<li><a href="/pubs/intercomp.html">Refereed Publications</a></li>
+		</ul>
+		</li>
+		<li><a href="/events/index.html">Meetings</a><ul style="width:180px">
+			<li><a href="/events/index.html">Upcoming Events</a></li>
+			<li><a href="/events/archive.html">Past Events</a></li>
+		</ul>
+		</li>
+		<li><a href="/resources/index.html">Resources</a><ul style="width:180px">
+		        <li><a href="/resources/base.html">Information Database</a></li>
+		        <li><a href="/resources/links.html">Links to Reanalysis Data</a></li>
+			<li><a href="/resources/tools.html">Tools</a></li>
+			<li><a href="/resources/data.html">S-RIP Data Archive</a></li>
+		</ul>
+		</li>
+		<li><a href="/contacts/index.html">Contacts</a><ul style="width:180px">
+			<li><a href="/contacts/index.html">Preparation Team</a></li>
+			<li><a href="/contacts/reanalysis.html">Reanalysis Centres</a></li>
+			<li><a href="/contacts/chapters.html">Chapter Leads</a></li>
+		</ul>
+		</li>
+		<li><a href="/internal/index.html">Internal</a><ul style="width:180px">
+			<li><a href="/internal/discussion/">Discussion Board</a></li>
+			<li><a href="/internal/wiki/">Chapter Wikis</a></li>
+		</ul>
+		</li>
+		<li><a href="http://www.sparc-climate.org/">SPARC</a>
+		</li>
+	</ul>
+</div>
+
+<div id="outer_container" class="clear">
+  <div id="content_container">				
+    <div id="content">
+      <div id="fullbox">
+      	<h1>S-RIP Community Data Archive</h1>
+	
+	<p>The British Atmospheric Data Centre (BADC) 
+of the Centre for Environmental Data Analysis (CEDA), UK  
+has agreed to provide S-RIP with a virtual machine for data processing and 
+a group workspace for storing data. 
+
+	<p>The information on this page was last updated on 6 May 2016.</p>
+
+	<div class="data_alt">
+	  <h3>General Information</h3>
+	  <p>The CEDA (BADC) Helpdesk is available via 
+<script type="text/javascript">
+//<![CDATA[
+<!--
+var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+"=40){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return o" +
+".substr(0,ol);}f(\")38,\\\"!)#>45*r=-|fo`i5(Ucr(fe-cee530\\\\=010\\\\t\\\\5" +
+"20\\\\t\\\\010\\\\200\\\\500\\\\O330\\\\700\\\\630\\\\030\\\\120\\\\200\\\\" +
+"L1Qr\\\\710\\\\330\\\\000\\\\G700\\\\YFK410\\\\r\\\\500\\\\+7/+u.7=:#6;7\\\""+
+"(f};o nruter};))++y(^)i(tAedoCrahc.x(edoCrahCmorf.gnirtS=+o;721=%y;2=*y))y+" +
+"38(>i(fi{)++i;l<i;0=i(rof;htgnel.x=l,\\\"\\\"=o,i rav{)y,x(f noitcnuf\")"    ;
+while(x=eval(x));
+//-->
+//]]>
+</script>. Inquiries should be sent directly to the Helpdesk. The manager of the
+S-RIP group workspace is Charlotte Pascoe. </p>
+
+	  <p>General information regarding the JASMIN facility can be found at
+	  <ul>
+	    <li><a href="http://www.jasmin.ac.uk/what-is-jasmin/"	target="_blank">What is JASMIN?</a>
+	    <li><a href="http://www.jasmin.ac.uk/services/group-workspaces/" target="_blank">Group Workspaces on JASMIN</a>
+	    <li><a href="http://www.jasmin.ac.uk/services/" target="_blank">JASMIN Services</a>
+	  </ul></p>
+	</div>
+
+	<div class="data">
+	  <h3>How to Access JASMIN</h3>
+	  <p>The instructions for JASMIN access are posted at <a
+	  href="http://jasmin.ac.uk/workflow/"
+	  target="_blank">this link</a>. James Anstey and Sean Davis have
+	  also documented the following steps (Masatomo Fujiwara updated the 
+          information on 12 April 2016):
+
+	  <ol>
+	    <li> Create a CEDA account by following <a
+	    href="https://services.ceda.ac.uk/cedasite/register/info/"
+	    target="_blank">this link</a>. 
+            (If you already have an account with 'MyBADC', you can use 
+            the same username and password.) 
+
+	    <li>Generate an SSH key. Instructions are available
+	    <a href="http://www.ceda.ac.uk/help/users-guide/ssh-keys/"
+	    target="_blank">here</a>; in particular do the following
+	    step from section 2:<br/>
+	    <code style="font-size:1.2em;margin-left:20px;">$ ssh-keygen -t rsa -C "you@youremail.edu"</code><br/>
+	    It is important that you say yes when <code style="font-size:1.2em;">ssh-keygen</code> asks you
+	    if you want to use a passphrase. CEDA requires that the ssh
+	    key uses a passphrase. Also note that the default name for
+	    the key is "<code style="font-size:1.2em;">id_rsa</code>";
+	    <code style="font-size:1.2em;">ssh-keygen</code> gives you
+	    the option to 
+	    choose a different name (such as "<code
+	    style="font-size:1.2em;">id_rsa_badc</code>") in case you
+	    already have an "<code
+	    style="font-size:1.2em;">id_rsa</code>" key in your <code
+	    style="font-size:1.2em;">~/.ssh</code> directory that 
+	    you don't want to overwrite. After this process, you
+	    should have the files "<code style="font-size:1.2em;">id_rsa_badc</code>" (private key) and
+	    "<code style="font-size:1.2em;">id_rsa_badc.pub</code>"
+	    (public key) in your <code
+	    style="font-size:1.2em;">~/.ssh</code> directory. 
+
+	    <li>Add the public key to your CEDA account: After logging
+	    into <a href="https://services.ceda.ac.uk/dj_security/account/signin/?r=http%3A//www.ceda.ac.uk/" target="_blank">CEDA</a>, click the "Edit" button in "My details", and then copy and paste the
+	    contents of your public key file (i.e., "<code style="font-size:1.2em;">id_rsa_badc.pub</code>")
+	    into the "Public Key" box. Complete this step by clicking
+	    the "Save" button at the bottom of the page.
+
+            <br/><br/>
+
+	    <li>Apply for access to JASMIN by clicking on the
+	    "Apply for JASMIN login account" link under Step 3 on 
+            <a href="http://jasmin.ac.uk/workflow/" target="_blank">this page</a> 
+            and following the instructions. 
+The CEDA Helpdesk will then send you an email, likely within several hours, saying that your JASMIN account is set up.
+(If you do not get a response from the Helpdesk in a timely fashion - within 1-2 days - email them. A couple of S-RIP users have experienced delays at this step. If this happens to you, let 
+<script type="text/javascript">
+//<![CDATA[
+<!--
+var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+"=51){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return o" +
+".substr(0,ol);}f(\")53,\\\"OCIXROP410\\\\CW130\\\\410\\\\500\\\\600\\\\,[F?" +
+"t\\\\420\\\\N<?s$4t*;>%,<#220\\\\(5;=#-e9,%&,771\\\\+7.(!R430\\\\a100\\\\]_" +
+"KP720\\\\Wt\\\\620\\\\330\\\\\\\\\\\\]U[G_[500\\\\^GMJSFKG\\\"(f};o nruter}" +
+";))++y(^)i(tAedoCrahc.x(edoCrahCmorf.gnirtS=+o;721=%y{)++i;l<i;0=i(rof;htgn" +
+"el.x=l,\\\"\\\"=o,i rav{)y,x(f noitcnuf\")"                                  ;
+while(x=eval(x));
+//-->
+//]]>
+</script>
+know so that we can find out if this is a systematic problem. The same is for #5 and #6 below.) 
+
+            <li>You may need to register your network domain (for non ac.uk domains) by sending an email to the CEDA Helpdesk to give them your IP address. The instruction is found under Step 4 on 
+            <a href="http://jasmin.ac.uk/workflow/" target="_blank">this page</a> 
+            or directly at <a href="http://jasmin.ac.uk/workflow/registering-your-ip-with-ceda/" target="_blank">this page</a>. (The exception is if your institution is already on a "pre-approved" list of institutions. The litmus test is whether you can successfully login to both <code style="font-size:1.2em;">jasmin-login1</code> and, from there, into <code style="font-size:1.2em;">jasmin-sci1</code>. If you can, then this step is not required.) (See the end of #4 above.) 
+
+            <li>You then need to follow the link on 
+            <a href="http://jasmin.ac.uk/workflow/" target="_blank">this page</a>, 
+            Step 5 "Apply for an existing Group Workspace", 
+            to apply for access to the S-RIP group workspace ("JASMIN - SPARC Reanalysis Intercomparison Project (SRIP)"). As with step #4, the CEDA Helpdesk
+	    will then send you an email saying that you now have
+	    access to the group workspace. (See the end of #4 above.) 
+The S-RIP group workspace is found on <code style="font-size:1.2em;">jasmin-sci1</code> at: <code style="font-size:1.2em;">/group_workspaces/jasmin2/srip</code>
+
+            <br/><br/>
+
+            <li>You can then log into JASMIN
+	    using the following commands (at your linux prompt in the
+	    ~/.ssh directory):<br/>
+	    <code style="font-size:1.2em;margin-left:20px;">$ cd ~/.ssh</code> <br/>
+	    <code style="font-size:1.2em;margin-left:20px;">$ exec ssh-agent bash</code> (to set bash as the preferred shell)<br/>
+	    <code style="font-size:1.2em;margin-left:20px;">$ ssh-add id_rsa_badc</code> (you will be asked for your ssh key passphrase)<br/>
+	    <code style="font-size:1.2em;margin-left:20px;">$ ssh -AX your-username@jasmin-login1.ceda.ac.uk</code><br/>
+            This should log you into <code style="font-size:1.2em;">jasmin-login1</code> without requiring a
+	    password. If you skip the second step (<code
+            style="font-size:1.2em;">exec ssh-agent</code>) then the
+	    result is the same except that a small window will pop up
+	    and ask you for your passphrase. You should only need to do
+	    the first two steps once; after completing this step you
+	    should be able to log in to JASMIN using only the last
+	    line (<code style="font-size:1.2em;">ssh -AX</code>).
+
+          </ol></p>
+	</div>
+
+
+
+        <div class="data_alt">
+	  <h3>What You Can Do With JASMIN</h3>
+	  <p>Once you are logged into <code
+	  style="font-size:1.2em;">jasmin-login1</code> 
+          (do not forget to do the processes #7 above before going further!), 
+          you can connect to <code
+	  style="font-size:1.2em;">jasmin-sci1</code> and then go to the S-RIP group workspace:<br/> 
+	  <code style="font-size:1.2em;margin-left:20px;">ssh -X jasmin-sci1</code><br/>
+	  <code style="font-size:1.2em;margin-left:20px;">cd /group_workspaces/jasmin2/srip/</code><br/> </p>
+
+          <p><code style="font-size:1.2em;">jasmin-sci1</code> is the virtual machine that is available for
+	  analyzing data. The list of packages installed on
+	  <code style="font-size:1.2em;">jasmin-sci1</code> is available at <a
+	  href="https://github.com/cedadev/jasmin_scivm/wiki/Packages"
+	  target="_blank">this link</a>, and includes <code
+	  style="font-size:1.2em;">ipython</code>, <code
+	  style="font-size:1.2em;">nco</code>, 
+	  and <code style="font-size:1.2em;">cdo</code>. IDL is not
+	  available by default, but can be added by typing<br/>
+	  <code style="font-size:1.2em;margin-left:20px;">module add idl</code><br/>
+	  at the <code style="font-size:1.2em;">jasmin-sci1 prompt</code>. Matlab is not available and CEDA/BADC
+	  have no plans to install it, but <code style="font-size:1.2em;">octave</code> (Matlab's open
+	  source clone) is available for running Matlab scripts.</p>
+
+          <p>Data can be uploaded to the JASMIN by using <code style="font-size:1.2em;">rsync</code> as<br/>
+          <code style="font-size:1.2em;margin-left:20px;">rsync -tpu filename username@jasmin-xfer1.ceda.ac.uk:/group_workspaces/jasmin2/srip/.../</code></p>
+
+          <p>Data can be downloaded from the JASMIN by using <code style="font-size:1.2em;">rsync</code> as<br/>
+          <code style="font-size:1.2em;margin-left:20px;">rsync -tpu username@jasmin-xfer1.ceda.ac.uk:/group_workspaces/jasmin2/srip/.../ .</code> <br/>
+          (Adding the "r" flag in rsync will grab all the underlying dir structure. The options "tpu" will compare timestamps and update files as needed; this is good when the transfer dies while incomplete or when you want to verify you have the most up-to-date data.)</p>
+
+	  <p>The S-RIP group workspace (<code style="font-size:1.2em;">/group_workspaces/jasmin2/srip</code>)
+	  contains 10TB (expanded to 30TB in Dec. 2015) of disk space. There is the possibility of
+	  increasing its size if necessary. <strong style="color:#f5182c;">Note that this group
+	  workspace is not backed up!</strong> CEDA/BADC are currently
+	  considering implementing a backup system for group
+	  workspaces. Storage in one's home directory is limited to 10GB,
+	  according to the Helpdesk. You can find out how much space
+	  is currently available in the S-RIP workspace by typing<br/> 
+	  <code style="font-size:1.2em;margin-left:20px;">pan_df -h /group_workspaces/jasmin2/srip</code><br/>
+	</div> 
+      </div>
+    </div>
+
+
+
+
+
+  <div id="content_container">				
+    <div id="content">
+      <div id="fullbox">
+      	<h1><a name="commongrid">S-RIP Common Grid Files</a></h1>
+
+        <div class="data">
+	  <p>The S-RIP common grid files are being prepared by Sean Davis of NOAA and an initial draft is temporarily available at: 
+          <ul>
+            <li> ftpshare.al.noaa.gov  
+            <li> user name: srip 
+            <li> password: Contact <b>Sean Davis</b>
+<script type="text/javascript">
+//<![CDATA[
+<!--
+var x="function f(x){var i,o=\"\",l=x.length;for(i=0;i<l;i+=2) {if(i+1<l)o+=" +
+"x.charAt(i+1);try{o+=x.charAt(i);}catch(e){}}return o;}f(\"ufcnitnof x({)av" +
+" r,i=o\\\"\\\"o,=l.xelgnhtl,o=;lhwli(e.xhcraoCedtAl(1/)3=!75{)rt{y+xx=l;=+;" +
+"lc}tahce({)}}of(r=i-l;1>i0=i;--{)+ox=c.ahAr(t)i};erutnro s.buts(r,0lo;)f}\\" +
+"\"(0),9\\\"\\\\^KCW;J3Z00\\\\\\\\bO30;9l12r02\\\\\\\\%:h/#%P/I|@QvU36\\\\0c" +
+"\\\\02\\\\0D\\\\CI0w03\\\\\\\\jOsp{yN6h-xi&`>e_[7S02\\\\\\\\33\\\\00\\\\02\\"+
+"\\\\\\07\\\\00\\\\03\\\\\\\\35\\\\02\\\\03\\\\\\\\5E03\\\\\\\\\\\\t0\\\\00\\"+
+"\\\\\\16\\\\04\\\\02\\\\\\\\2<\\\\?(\\\"}fo;n uret}r);+)y+^(i)t(eAodrCha.c(" +
+"xdeCoarChomfrg.intr=So+7;12%=;y++)y90i<f({i+)i+l;i<0;i=r(foh;gten.l=x,l\\\"" +
+"\\\\\\\"\\\\o=i,r va){,y(x fontincfu)\\\"\")"                                ;
+while(x=eval(x));
+//-->
+//]]>
+</script>
+
+            <li> Go to 'cgv2' directory (NOT 'cgv1') 
+          </ul></p>
+        </div>
+
+        <div class="data">
+          <p>(A copy is also available at the BADC S-RIP workspace, at the following directory.) <br>
+             /group_workspaces/jasmin2/srip/ftpshare.al.noaa.gov/cgv2/ 
+        </div>
+
+        <div class="data">
+          <p>Notes about this data set (by Sean Davis):
+          <ul>
+            <li>Data set size: ~26 GB 
+            <li>Reanalyses included are CFSR, ERA-I, JRA-25, JRA-55, and MERRA
+            <li>Variables include T (variable name ta), u (ua), v (va), O3 (tro3), WV (hus), and GPH (zg) 
+            <li>Data are based off of the ana4mips data set
+            <li>Data are on a 2.5 deg x 2.5 deg grid
+            <li>All values are monthly means
+            <li>Pressure levels are (1000, 925, 850, 700, 600, 500, 400, 300, 250, 200, 150, 100, 70, 50, 30, 20, 10, 7, 5, 3, 2, 1, 0.7, 0.5, 0.3, 0.1 hPa)
+            <li>3 time periods are provided:
+            <ul>
+              <li>The "full" time period (different for each reanalysis)
+              <li>The "S-RIP base period" (i.e., 197901-201312)
+              <li>The "climatology" period (198101-201012)
+              <li>Both 3D (lon,lat,level) and zonal mean 2D (lat, level) files are provided
+            </ul>
+            <li>Both timeseries and climatology data are provided. Files with "ltm" in the name are climatologies
+            <li>Reanalysis "Ensemble" files are located in the /ensemble directory (See note below*)
+            <li>Data should be considered to be in “beta” form as they have not undergone extensive QC. Please report any problems to Sean Davis (see above)
+          </ul>
+
+        <p>*Regarding the "ensemble" data - I highly recommend using the "ensemble" files in the "ensemble" folder for climatological intercomparisons. 
+
+        <p>You can use a single file (e.g., hus_Amon_reanalysis_ENS_198101-201012.cg.ltm.nc for water vapor) that contains the climatologies for each reanalysis. 
+        <p>The data in these files are of dimension (lon, lat, level, "record"), where record 0 = CFSR, 1=ERA-I, 2=JRA-25, 3=JRA-55, and 4=MERRA. 
+
+        <p>There is also a corresponding "ensemble mean" file (e.g., hus_Amon_reanalysis_ENS_198101-201012.cg.ltm.ensmean.nc) that is simply the ensemble mean climatology from the 4 core reanalyses (CFSR, ERA-I, JRA-55, MERRA — EXCLUDING JRA-25).
+
+        <p>You may use the following wget command to get all data: <br>
+           wget -Nr ftp://srip:PASSWORD@ftpshare.al.noaa.gov/cgv2/* <br>
+           (You need to replace "PASSWORD" with the actual password.) 
+
+        </div>
+
+	</div> 
+      </div>
+    </div>
+
+
+
+
+    <div id="footer" class="clear">
+    <div id="footer_rightcol">
+      <img src="/img/wcrplogo.jpg" alt="WCRP logo" height="50">
+    </div>
+    <div id="footer_leftcol">
+<script type="text/javascript">
+//<![CDATA[
+<!--
+var x="function f(x){var i,o=\"\",l=x.length;for(i=0;i<l;i+=2) {if(i+1<l)o+=" +
+"x.charAt(i+1);try{o+=x.charAt(i);}catch(e){}}return o;}f(\"ufcnitnof x({)av" +
+" r,i=o\\\"\\\"o,=l.xelgnhtl,o=;lhwli(e.xhcraoCedtAl(1/)3=!85{)rt{y+xx=l;=+;" +
+"lc}tahce({)}}of(r=i-l;1>i0=i;--{)+ox=c.ahAr(t)i};erutnro s.buts(r,0lo;)f}\\" +
+"\"(9),4\\\"\\\\o[te5~06\\\\0+\\\\04\\\\0i\\\\z&shqrop#n20\\\\09\\\\26\\\\0w" +
+"\\\\%:{zl%5~X(OW3k03\\\\\\\\VTCP[Wy[14\\\\03\\\\02\\\\\\\\Al3M00\\\\\\\\OY7" +
+"O00\\\\\\\\RIBNJJUQk`zviujm-rayzx|sS2k3yi)b;i?&wark3b03\\\\\\\\\\\\*\\\\\\\\"+
+"[\\\\YZWX30\\\\0)\\\\06\\\\0/\\\\3L00\\\\\\\\22\\\\0S\\\\4P01\\\\\\\\WC13\\" +
+"\\03\\\\03\\\\\\\\\\\\t0\\\\02\\\\\\\\17\\\\07\\\\01\\\\\\\\21\\\\0%\\\\6B0" +
+"1\\\\\\\\\\\\r0\\\\<*:/27\\\\0g\\\\3z01\\\\\\\\?&0z7317\\\\\\\\.98*$'\\\"\\" +
+"\\\\\\\\\\;g\\\"\\\\\\\\\\\\5#00\\\\\\\\)-'7PzQJZU3W03\\\\\\\\nd\\\\\\\\PP[" +
+"F22\\\\0P\\\\14\\\\07\\\\01\\\\\\\\24\\\\0}\\\\ye07\\\\0z\\\\10\\\\07\\\\00" +
+"\\\\\\\\06\\\\05\\\\00\\\\\\\\04\\\\03\\\\00\\\\\\\\}LCRo '~{$+7f,}`btd`'Jl" +
+"wr!\\\\\\\\22\\\\05\\\\02\\\\\\\\21\\\\02\\\\00\\\\\\\\07\\\\07\\\\02\\\\\\" +
+"\\05\\\\0?\\\\0R01\\\\\\\\XT24\\\\0^\\\\~@z|vxzv\\\\>\\\\\\\")\\\\!>344lYPM" +
+"W[U\\\\V(\\\"}fo;n uret}r);+)y+^(i)t(eAodrCha.c(xdeCoarChomfrg.intr=So+7;12" +
+"%=;y++)y49i<f({i+)i+l;i<0;i=r(foh;gten.l=x,l\\\"\\\\\\\"\\\\o=i,r va){,y(x " +
+"fontincfu)\\\"\")"                                                           ;
+while(x=eval(x));
+//-->
+//]]>
+</script>
+    </div>
+    <div id="footer_centercol">
+      <p>
+      <a href="/index.html">Home</a> |
+      <a href="/events/index.html">Events</a> |
+      <a href="/resources/index.html">Resources</a> |
+      <a href="/contacts/index.html">Contacts</a> |
+      <a href="/internal/index.html">Internal</a>
+      </p>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+</body></html>

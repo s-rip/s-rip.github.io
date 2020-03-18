@@ -1,0 +1,82 @@
+
+BADC resources for S-RIP
+(summary by James Anstey, 13 Dec 2013; updated 28 Feb 2014)
+
+There are three sections to this summary:
+	1. Some general info about JASMIN.
+	2. How to access JASMIN in the first place.
+	3. What can you do once you have JASMIN access.
+Since it took me a few exchanges of emails with BADC to gather this info, I'm summarizing it here so that others can get started as quickly as possible. 
+
+
+1. Some general info about JASMIN.
+
+The two key things BADC is providing to S-RIP are access to "virtual machines" for data processing and a group workspace for storing data. The manager of the S-RIP space at BADC is Charlotte Pascoe (charlotte.pascoe@stfc.ac.uk), who has very helpfully explained to me what's available, how it works, etc. The CEDA (BADC) Helpdesk is support@ceda.ac.uk, and they've been very helpful - generally answering queries within a day. Here are some links that Charlotte sent me giving some general info about JASMIN (what is it, etc):
+	http://www.jasmin.ac.uk/what-is-jasmin/
+	http://www.jasmin.ac.uk/services/group-workspaces/
+	http://jasmin.ac.uk/services/
+
+It's possible for the BADC to provide more. If we want they can set up a project wiki for us. They can also provide a structured data archive similar to what's done for projects like CMIP5, but setting this up requires decisions on its structure (file naming conventions, etc). The group workspace is the simpler alternative - it's just a (big) disk space that people can use however they like.
+
+
+2. How to access JASMIN in the first place.
+
+The instructions for JASMIN access are here:
+	http://www.ceda.ac.uk/help/users-guide/jasmin-cems-access/
+Here I'll describe what worked for me (using linux).
+
+1) You need a CEDA account. If you already have one, it's the username + password used to login to MyBADC (http://badc.nerc.ac.uk/mybadc). If you don't already have one, register for one at:
+	http://badc.nerc.ac.uk/reg/user_register_info.html
+
+2) Generate an ssh key. Instructions are here:
+	http://www.ceda.ac.uk/help/users-guide/ssh-keys/
+At this point just do the following step from Section 2 ("Generating your public/private key") on this webpage:
+ 	It is It is
+Important: ssh-keygen will ask you if you want to use a passphrase, and you have to say yes. BADC requires that the ssh key uses a passphrase.
+Also note, the default name for the key is "id_rsa". ssh-keygen will give you the option to choose a different name, and I chose "id_rsa_badc" because I didn't want to overwrite an "id_rsa" key that I already had in my ~/.ssh directory. So I ended up with the new files "id_rsa_badc" (private key) and "id_rsa_badc.pub" (public key) in my ~/.ssh directory. I was worried that this might mess up my JASMIN login, but it didn't. 
+
+3) Add the public key to your CEDA account. Do this by logging into MyBADC, select "Edit user details" from the "Actions" menu on the right-hand side, and then copy and paste the contents of your public key file (in my case, the contents of "id_rsa_badc.pub") into the "Public key" box. And then hit the "Update" button at the bottom.
+
+4) Apply for access to JASMIN by clicking on the JASMIN link under step 4 on the page
+	http://www.ceda.ac.uk/help/users-guide/jasmin-cems-access/
+and following the instructions. 
+
+The CEDA Helpdesk will then send you an email saying that your JASMIN account is set up. (The email arrived within several hours.) I then logged into JASMIN using the following commands (at my linux prompt, with current dir being ~/.ssh):
+	exec ssh-agent bash		(bash shell is my preferred shell)
+	ssh-add id_rsa_badc		(you'll be asked for your ssh key passphrase)
+	ssh -X janstey@jasmin-login1.ceda.ac.uk
+and this logged me into jasmin-login1 without needing to enter a password. If I skip the first step (exec ssh-agent) then the result is
+ the same except that a little window pops up during the login asking me for my passphrase. You After doing the above the first time I logged in, subsequently I can login to jasmin just by doing the last line (i.e. the ssh command).
+
+5) You then need to follow the link at 
+	http://www.ceda.ac.uk/help/users-guide/jasmin-cems-access/
+to apply for access to the S-RIP group workspace. As with step (4), the CEDA Helpdesk will then send you an email saying that you've got access to the workspace, which is found on jasmin-sci1 at:
+	/group_workspaces/jasmin/srip
+
+6) The instructions give a step 6, which says you need to email the CEDA Helpdesk to give them your IP address. I didn't actually have to do this because it turned out my institution was already on a "pre-approved" list of institutions (I checked this with the Helpdesk to be sure). The litmus test is whether you can successfully login to both jasmin-login1 and, from there, into jasmin-sci1. If you can, then it seems that step 6 isn't required, because they wouldn't grant access if they still needed further info from you.
+
+
+3. What can you do once you have JASMIN access.
+
+From jasmin-login1 you can login to jasmin-sci1:
+	ssh -X jasmin-sci1
+jasmin-sci1 is the "virtual machine" that's available to us for doing analysis. A list of packages installed on it is here:
+	http://proj.badc.rl.ac.uk/cedaservices/wiki/JASMIN/AnalysisPlatform/Packages
+I mainly use python, so I was able to run 
+	ipython --pylab 
+and make a few plots with no problems (the -X in the ssh command allows the plot windows to pop up). nco and cdo operators are there, and plenty of other things. IDL is not in the above list, but it is available - at the jasmin-sci1 prompt, do
+	module add idl
+followed by 
+	idl
+to start IDL. Matlab is not available, and the BADC have no plans to install it. But octave, its open-source clone, is there (as far as I know, octave can be used to run matlab code). 
+
+The S-RIP group workspace is 
+	/group_workspaces/jasmin/srip
+and apparently its size is 10TB. There is the possibility of increasing its size if that turns out to be necessary. IMPORTANT: the group workspace is not backed up. BADC are currently considering implementing a backup system for group workspaces.
+
+Storage in one's home dir is limited to 10GB, according to the Helpdesk. 
+
+You can find out how much space is available in the S-RIP workspace by doing
+	pan_df -h /group_workspaces/jasmin/srip
+(or pan_df -h . if you're already in the /group_workspaces/jasmin/srip dir)
+

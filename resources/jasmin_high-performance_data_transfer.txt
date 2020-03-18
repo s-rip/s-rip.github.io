@@ -1,0 +1,19 @@
+Info on JASMIN's high-performance data transfer service is here:
+
+http://help.ceda.ac.uk/category/217-data-transfer
+
+and scroll down to the item "Data Transfer: high-performance data transfer access". At that page there's a button you can use to apply for it. Once you have it, it shows up in your list of "JASMIN services" as:
+
+  Additional Services : hpxfer
+  use of high-performance data transfer services
+
+(You view your jasmin services by clicking on the "My Services" button, near the bottom of your jasmin profile after logging in at https://accounts.jasmin.ac.uk/account/login/) To use it, direct your transfers to the jasmin-xfer2 or jasmin-xfer3 machines, for example:
+
+rsync -tpur * yourusername@jasmin-xfer3.ceda.ac.uk:/group_workspaces/jasmin2/srip/v3b_zonal/common_grid/
+
+The default transfer machine, jasmin-xfer1, is much slower than these. It's fine for small things like scripts etc, but xfer2 & xfer3 are significantly faster for data transfers.
+
+Note: xfer2 may be optimized for Europe and xfer3 for elsewhere.
+
+Use the JASMIN "Contact" link at https://help.ceda.ac.uk/category/217-data-transfer for more information.
+
