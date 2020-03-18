@@ -1,0 +1,5 @@
+http://hivelogic.com/enkoder/
+
+Use "THE ADVANCED FORM" with the Custom HTML: 
+[<a href="mailto:who@where">email</a>] 
+
