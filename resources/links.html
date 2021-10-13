@@ -92,16 +92,19 @@
 	
 	
 	<div class="data">
-	  <h3>ERA5</h3>
+	  <h3>ERA5 (including ERA5.1 & ERA5 back extension)</h3>
 	  <table class="subdivision">
 	    <tr><td width="100">Data Access:
-	      </td><td> <a href="https://cds.climate.copernicus.eu/#!/home" target="_blank">Climate Data Store</a> || <a href="http://apps.ecmwf.int/data-catalogues/era5/?class=ea" target="_blank">ECMWF</a> || <a href="https://cds.climate.copernicus.eu/api-how-to" target="_blank">CDS API</a> || NCAR RDA 0.25deg <a href="https://rda.ucar.edu/datasets/ds633.0/" target="_blank">hourly</a> <a href="https://rda.ucar.edu/datasets/ds633.1/" target="_blank">monthly</a> </td></tr>
-	    <tr><td width="100">Period:</td><td>1979-present, and 1950-1978 (the latter is a preliminary version (see <a href="https://climate.copernicus.eu/c3s-extends-maps-without-gaps-further-back-time" target="_blank">(1)</a> and <a href="https://confluence.ecmwf.int/display/CKB/ERA5+back+extension+1950-1978+%28Preliminary+version%29%3A+tropical+cyclones+are+too+intense" target="_blank">(2)</a> for the reason; see also <a href="https://confluence.ecmwf.int/display/CKB/ERA5+back+extension+1950-1978+%28preliminary+version%29%3A+large+bias+in+surface+analysis+over+Australia+prior+to+1970" target="_blank">(3)</a>), currently available at CDS separately from the 1979-present one, and will be updated around the end of 2021)</td></tr>
+	      </td><td> <a href="https://cds.climate.copernicus.eu/#!/home" target="_blank">Climate Data Store (CDS)</a> (See also <a href="https://cds.climate.copernicus.eu/api-how-to" target="_blank">CDS API</a>) || <a href="http://apps.ecmwf.int/data-catalogues/era5/?class=ea" target="_blank">ECMWF</a> || <a href="https://rda.ucar.edu/" target="_blank">NCAR RDA</a> || <a href="https://archive.ceda.ac.uk/" target="_blank">CEDA Archive</a> (Search with "ERA5" or "ERA5.1") </td></tr>
+	    <tr><td width="100">Period:</td><td>1979-present ("ERA5.1" is a corrected version for 2000-2006), and 1950-1978 ("back extension"; see below for more information)</td></tr>
 	    <tr><td width="100">Format:</td><td>GRIB or netCDF</td></tr>
-	    <tr><td width="100">Note:</td><td>Registration is necessary to download data</td></tr>
-	    <tr><td width="100">Note:</td><td>General information on ERA5, including the public release plan, is available at/through <a href="https://climate.copernicus.eu/climate-reanalysis" target="_blank">the Copernicus site</a> </td></tr>
+<!--	    <tr><td width="100">Note:</td><td>Registration is necessary to download data</td></tr>
+	    <tr><td width="100">Note:</td><td>General information on ERA5, including the public release plan, is available at/through <a href="https://climate.copernicus.eu/climate-reanalysis" target="_blank">the Copernicus site</a> </td></tr> --> 
+	    <tr><td width="100">Note:</td><td>"ERA5.1": This is a corrected version of ERA5 for the period 2000-2006. Details of the issue in ERA5 and its correction for ERA5.1 can be found in <a href="https://doi.org/10.21957/rcxqfmg0" target="_blank">Simmons et al., 2020</a> </td></tr>
+	    <tr><td width="100">Note:</td><td>"ERA5 back extension (1950-1978)": The current (2021) one is a preliminary version (see <a href="https://climate.copernicus.eu/c3s-extends-maps-without-gaps-further-back-time" target="_blank">(1)</a> and <a href="https://confluence.ecmwf.int/display/CKB/ERA5+back+extension+1950-1978+%28Preliminary+version%29%3A+tropical+cyclones+are+too+intense" target="_blank">(2)</a> for the reason; see also <a href="https://confluence.ecmwf.int/display/CKB/ERA5+back+extension+1950-1978+%28preliminary+version%29%3A+large+bias+in+surface+analysis+over+Australia+prior+to+1970" target="_blank">(3)</a>), currently available at CDS separately from the 1979-present one, and will be updated around the end of 2021)</td></tr>
 	    <tr><td width="100">Note:</td><td>"ERA5T" data, i.e., preliminary data for ERA5 with a 5-day delay from real time, are included in the data set available at Climate Data Store. See <a href="https://confluence.ecmwf.int/display/CUSF/Release+of+ERA5T" target="_blank">this page</a> for more information on ERA5T and the meaning of "preliminary". </td></tr>
-	    <tr><td width="100">References:</td><td> <a href="https://doi.org/10.1002/qj.3803" target="_blank">Hersbach et al., 2020</a>. See also a document on "ERA5.1" <a href="https://doi.org/10.21957/rcxqfmg0" target="_blank">here</a>. For 1950-1978 ('back extension'), see <a href="https://doi.org/10.1002/qj.4174" target="_blank">Ball et al., 2021</a>, and <a href="https://climate.copernicus.eu/c3s-extends-maps-without-gaps-further-back-time" target="_blank">(1)</a>, <a href="https://confluence.ecmwf.int/display/CKB/ERA5+back+extension+1950-1978+%28Preliminary+version%29%3A+tropical+cyclones+are+too+intense" target="_blank">(2)</a>, and <a href="https://confluence.ecmwf.int/display/CKB/ERA5+back+extension+1950-1978+%28preliminary+version%29%3A+large+bias+in+surface+analysis+over+Australia+prior+to+1970" target="_blank">(3)</a>.</td></tr>
+	    <tr><td width="100">Note:</td><td>Model-level data are available from CDS and CEDA (see above links), but the horizontal grids and the period available may be different between the two.</td></tr>
+	    <tr><td width="100">References:</td><td> <a href="https://doi.org/10.1002/qj.3803" target="_blank">Hersbach et al., 2020</a> for ERA5 1979-. <a href="https://doi.org/10.21957/rcxqfmg0" target="_blank">Simmons et al., 2020</a> for "ERA5.1" (corrected version for 2000-2006). For 1950-1978 ('back extension'), see <a href="https://doi.org/10.1002/qj.4174" target="_blank">Ball et al., 2021</a>, and <a href="https://climate.copernicus.eu/c3s-extends-maps-without-gaps-further-back-time" target="_blank">(1)</a>, <a href="https://confluence.ecmwf.int/display/CKB/ERA5+back+extension+1950-1978+%28Preliminary+version%29%3A+tropical+cyclones+are+too+intense" target="_blank">(2)</a>, and <a href="https://confluence.ecmwf.int/display/CKB/ERA5+back+extension+1950-1978+%28preliminary+version%29%3A+large+bias+in+surface+analysis+over+Australia+prior+to+1970" target="_blank">(3)</a>.</td></tr>
 	   </table>
 	</div>
 
@@ -173,7 +176,7 @@
 	  <table class="subdivision">
 	    <tr><td width="100">Data Access:</td><td><a href="http://jra.kishou.go.jp/JRA-55/index_en.html"target="_blank">JMA</a> || NCAR RDA: <a href="http://rda.ucar.edu/datasets/ds628.0/" target="_blank">6/3-hourly</a> &bull; <a href="http://rda.ucar.edu/datasets/ds628.1/" target="_blank">Monthly</a> || <a href="http://search.diasjp.net/en/dataset/JRA55" target="_blank">DIAS</a> || <a href="http://database.rish.kyoto-u.ac.jp/arch/jra55/" target="_blank">RISH</a> </td></tr>
 	    <tr><td width="100">Period:</td><td>January 1958&ndash;present</td></tr>
-	    <tr><td width="100">Format:</td><td>GRIB</td></tr>
+	    <tr><td width="100">Format:</td><td>GRIB or netCDF</td></tr>
 	    <tr><td width="100">Note:</td><td>Registration is necessary to download data</td></tr>
 	    <tr><td width="100">References:</td><td><a href="http://dx.doi.org/10.2151/jmsj.2015-001" target="_blank">Kobayashi et al., 2015</a>; <a href="http://dx.doi.org/10.2151/jmsj.2016-015" target="_blank">Harada et al., 2016</a></td></tr>
 	  </table>
@@ -184,7 +187,7 @@
 	  <table class="subdivision">
 	    <tr><td width="100">Data Access:</td><td> NCAR RDA: <a href="http://rda.ucar.edu/datasets/ds628.2/" target="_blank">6/3-hourly</a> &bull; <a href="http://rda.ucar.edu/datasets/ds628.3/" target="_blank">Monthly</a> || <a href="http://search.diasjp.net/en/dataset/JRA55_C" target="_blank">DIAS</a> </td></tr>
 	    <tr><td width="100">Period:</td><td>November 1972&ndash;December 2012</td></tr>
-	    <tr><td width="100">Format:</td><td>GRIB</td></tr>
+	    <tr><td width="100">Format:</td><td>GRIB or netCDF</td></tr>
 	    <tr><td width="100">Note:</td><td>Registration is necessary to download data</td></tr>
 	    <tr><td width="100">References:</td><td><a href="http://doi.org/10.2151/sola.2014-016" target="_blank">Kobayashi et al., 2014</a></td></tr>
 	  </table>
@@ -195,7 +198,7 @@
 	  <table class="subdivision">
 	    <tr><td width="100">Data Access:</td><td> NCAR RDA: <a href="http://rda.ucar.edu/datasets/ds628.4/" target="_blank">6/3-hourly</a> || <a href="http://search.diasjp.net/en/dataset/JRA55_AMIP" target="_blank">DIAS</a> </td></tr>
 	    <tr><td width="100">Period:</td><td>January 1958&ndash;January 2013</td></tr>
-	    <tr><td width="100">Format:</td><td>GRIB</td></tr>
+	    <tr><td width="100">Format:</td><td>GRIB or netCDF</td></tr>
 	    <tr><td width="100">Note:</td><td>Registration is necessary to download data</td></tr>
 	    <tr><td width="100">References:</td><td><a href="http://doi.org/10.2151/sola.2014-016" target="_blank">Kobayashi et al., 2014</a></td></tr>
 	  </table>
@@ -206,7 +209,7 @@
 	  <table class="subdivision">
 	    <tr><td width="100">Data Access:</td><td> <!-- <a href="http://jra.kishou.go.jp/JRA-25/index_en.html" target="_blank">JMA</a> || --> NCAR RDA: <a href="http://rda.ucar.edu/datasets/ds625.0/" target="_blank">6-hourly</a> &bull; <a href="http://rda.ucar.edu/datasets/ds625.1/" target="_blank">Monthly</a></td></tr>
 	    <tr><td width="100">Period:</td><td>January 1979&ndash;January 2014</td></tr>
-	    <tr><td width="100">Format:</td><td>GRIB (or 4-byte big_endian for monthly means)</td></tr>
+	    <tr><td width="100">Format:</td><td>netCDF <!--GRIB (or 4-byte big_endian for monthly means)--> </td></tr>
 	    <tr><td width="100">Note:</td><td>Registration is necessary to download data</td></tr>
 	    <tr><td width="100">Note:</td><td>JMA terminated distribution of JRA-25/JCDAS at the end of February 2014. The data remain available through NCAR.</td></tr>
 	    <tr><td width="100">Note (15 Aug 2017):</td><td>It has been found that the profiles in the fcst_phy3m25 files are shifted slightly downward incorrectly. This is due to the use of half-level coefficients (instead of the full-level coefficients) when the conversion from fcst_phy3m to fcst_phy3m25 was made at JMA. All other files such as fcst_phy3m, anl_p, anl_p25, etc. are OK. Contact Masatomo Fujiwara for more information.</td></tr>
