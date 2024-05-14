@@ -51,7 +51,7 @@ a.noborder, a:link.noborder, a:visited.noborder, a:hover.noborder, a:active.nobo
         border-bottom: 2px solid #C2C2C2;
 }
 #sparc_logo {
-        width: 100px;
+        width: 241px;
         height: 100px;
         padding: 0px;
         margin: 0px;
@@ -287,6 +287,12 @@ div.data{
         padding-top:5px;
         padding-bottom:10px;
 }
+
+/* div.data h3{
+        color: #666666;
+        padding-top: 8px;
+        font-family: "Trebuchet MS", Verdana, Arial, Helvetica, "URW Gothic L", 
+} */
 
 div.data ul{
         list-style-type: disc;
