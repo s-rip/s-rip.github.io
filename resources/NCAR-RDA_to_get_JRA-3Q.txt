@@ -1,0 +1,42 @@
+Download JRA-3Q data from NCAR RDA site 
+(By Masatomo Fujiwara, 2 Aug. 2024) 
+
+(0) Check JRA-3Q documents 
+
+- 1.25-degree latitude/longitude grid data
+https://jra.kishou.go.jp/JRA-3Q/document/JRA-3Q_LL125_format_en.pdf
+Or
+- model grid data
+https://jra.kishou.go.jp/JRA-3Q/document/JRA-3Q_TL479_format_en.pdf
+
+and clarify which types (e.g. anl_p, anl_mdl, fcst_p, etc.) and which variables you want to get. 
+
+(1) Access https://rda.ucar.edu/datasets/ds640.0/
+
+(2) (you do not need to SIGN IN to download data) 
+
+(3) Click "DATA ACCESS"
+
+for the case of getting model level data "anl_mdl": 
+(4) Click "Web File Listing" at  
+"JRA-3Q model level analysis fields (anl_mdl) [netCDF4]" 
+
+(5) Click "LINK >" at "Faceted Browse" 
+
+(6) Make necessary selections 
+(I would suggest to first make a quick test by restricting number of files to be downloaded, to see if you can get what you want to get)
+and click "CONTINUE" 
+
+(7) (This is key point ... )  RANGE SELECTION "ON"
+Then, check the box at the top, and check the box at the bottom (the end), so that all the middle boxes are also checked at the same time.  
+
+(8) Click "CREATE" a Unix script ... using Wget 
+
+... then you get a "webread" file with wget commands 
+(Of course, you can select other download options) 
+
+Once you get some "webread" files, you may be able to know the rules of the directory and file names. Then, you can write up your own script to get all what you need... 
+
+
+
+
